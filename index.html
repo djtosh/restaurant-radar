@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Radar - Know About New Restaurants Before Anyone Else</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-gray-900 bg-white">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+        <div class="max-w-6xl mx-auto px-6 py-20 md:py-32">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Know About New Restaurants <span class="text-emerald-400">Before Anyone Else</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-300 mb-8">
+                    Get leads on new restaurant openings 3-6 months before they open — when they need vendors most.
+                </p>
+
+                <!-- Email Signup Form -->
+                <form action="https://formspree.io/f/mjgkndvr" method="POST" class="flex flex-col sm:flex-row gap-4 max-w-lg">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                        class="flex-1 px-5 py-4 rounded-lg text-gray-900 text-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                    >
+                    <button
+                        type="submit"
+                        class="px-8 py-4 bg-emerald-500 hover:bg-emerald-600 rounded-lg text-lg font-semibold transition-colors whitespace-nowrap"
+                    >
+                        Join Waitlist
+                    </button>
+                </form>
+                <p class="text-slate-400 text-sm mt-4">Join the waitlist for early access. No spam, ever.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">The Problem With Finding New Restaurant Leads</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    By the time most vendors hear about a new restaurant opening, it's too late. The restaurant has already been pitched by competitors, signed contracts, or is too busy with their grand opening to talk to new vendors.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Get There First</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Restaurant Radar monitors building permits, liquor license applications, and business registrations to find new restaurants during their planning phase — <strong>3-6 months before they open</strong>. We deliver actionable leads directly to your inbox.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">How It Works</h2>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Feature 1 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">We Monitor Public Records</h3>
+                    <p class="text-gray-600">
+                        Building permits, liquor licenses, business registrations — we track the signals that indicate a new restaurant is coming.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">We Verify & Score Leads</h3>
+                    <p class="text-gray-600">
+                        Our system cross-references multiple sources and scores leads so you know which ones are ready to call today.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">You Get Daily Leads</h3>
+                    <p class="text-gray-600">
+                        Every morning, a curated list of new leads lands in your inbox. Mobile-optimized with click-to-call numbers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who It's For Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">Built for Restaurant Vendors</h2>
+            <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+                If you sell products or services to restaurants, Restaurant Radar helps you find new customers before the competition.
+            </p>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">Hood Cleaners</div>
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">Equipment Suppliers</div>
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">Uniform Companies</div>
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">Food Distributors</div>
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">POS Systems</div>
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">Janitorial Services</div>
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">Pest Control</div>
+                <div class="bg-slate-100 rounded-xl px-6 py-4 text-center font-medium">HVAC Services</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Types Section -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Lead Temperature Scoring</h2>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Hot -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+                    <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mb-4">
+                        <span class="text-2xl">🔥</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Hot Leads</h3>
+                    <p class="text-gray-600">Phone number available, ready to call today. These restaurants are actively in buildout.</p>
+                </div>
+
+                <!-- Warm -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+                    <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
+                        <span class="text-2xl">☀️</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Warm Leads</h3>
+                    <p class="text-gray-600">Confirmed from 2+ sources. High confidence this is a real restaurant opening.</p>
+                </div>
+
+                <!-- Early -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+                        <span class="text-2xl">👀</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Early Leads</h3>
+                    <p class="text-gray-600">Single source signal. Worth watching — these could be your earliest opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 bg-slate-900 text-white">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Get Early Access</h2>
+            <p class="text-xl text-slate-300 mb-8">
+                Join the waitlist to be first in line when we launch.
+            </p>
+
+            <!-- Email Signup Form -->
+            <form action="https://formspree.io/f/mjgkndvr" method="POST" class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                    class="flex-1 px-5 py-4 rounded-lg text-gray-900 text-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                >
+                <button
+                    type="submit"
+                    class="px-8 py-4 bg-emerald-500 hover:bg-emerald-600 rounded-lg text-lg font-semibold transition-colors whitespace-nowrap"
+                >
+                    Join Waitlist
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-slate-950 text-slate-400">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p>&copy; 2026 Restaurant Radar. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
